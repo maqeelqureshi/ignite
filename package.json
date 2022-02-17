@@ -1,6 +1,6 @@
 {
   "name": "ignite-cli",
-  "version": "7.10.2",
+  "version": "7.10.4",
   "description": "Infinite Red's hottest boilerplate for React Native.",
   "bin": {
     "ignite": "bin/ignite",
@@ -38,8 +38,7 @@
     "ci:test": "yarn build && yarn ci:lint && jest --runInBand && yarn clean",
     "ci:publish": "yarn build && yarn semantic-release && yarn clean",
     "semantic-release": "semantic-release",
-    "clean": "rm -rf ./build && rm ./boilerplate/.gitignore.template",
-    "postinstall": "solidarity"
+    "clean": "rm -rf ./build && rm ./boilerplate/.gitignore.template"
   },
   "devEngines": {
     "node": ">=7.x",
